@@ -1,60 +1,35 @@
-# p5.js Template
+#day 1
+At first i was trying to create something based on what we learned in class so my first code was like this
+![first idea](https://imgpile.com/images/D9Gbb2.png)
 
-This is a README file that can be used to describe and document your assignment.
+the first try makes an animation, after I move the draw part into setup
+I noticed that the spacing , number of ellipse and sizes may need a change if i want to make as close as the second pic shows
+![picture](https://imgpile.com/images/D9GdmG.png)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+then I tried to add a spacing variation but this is what shows
+![tried on p5js web](https://imgpile.com/images/D9GDYh.png)
+so the i think the spacing need a true false function to solve
 
----
----
+then I consider that the density also need a setup
+![sketch](https://imgpile.com/images/D9GhQa.jpg)
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+#day 2
+then I did several tries but they all failed. it's hard to control
+the overlapping of the circles. my first idea seems work but I found 
+that it is actually because of the spacing, as I make the spacing denser then some circles overlapped. so I give up this idea.though it works
+![tried on p5js web](https://imgpile.com/images/D9God8.png)
 
-**bold text**
+#day 3
+I searched some tutorials and some of my old proccesing notes
+and ask some friends who knows coding to find some ideas that I could set a spacing to avoid overlapping
 
-*italicized text*
+and make it as close as it could, could set twice smallest 
+size of circle(but it takes longer to run than set the spacing
+into largest circle) but I like the density in this version
+**hope to learn some way make it run faster**
 
-~~strikethrough text~~
+I searched that there is a "for..of loop (circle as cricles)"
+that I could define my array so I could set properties inside
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+By itself I used “else if”, but found“!“ 's function allowed me to chase down the details of each circle position. But I realized that my drawing positions were never saved, so I searched the web and found the ”push（）“ function to save the style of the circle I had drawn
+![sketch](https://imgpile.com/images/D9KlYa.jpg)
