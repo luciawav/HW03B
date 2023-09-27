@@ -33,3 +33,6 @@ that I could define my array so I could set properties inside
 
 By itself I used “else if”, but found“!“ 's function allowed me to chase down the details of each circle position. But I realized that my drawing positions were never saved, so I searched the web and found the ”push（）“ function to save the style of the circle I had drawn
 ![sketch](https://imgpile.com/images/D9KlYa.jpg)
+
+
+just noticed we should work in full screen so I REMOVED the canvas

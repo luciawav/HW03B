@@ -3,7 +3,7 @@ let minDiam = 5; //small circle min
 let circles = []; // Store some circle properties
 
 function setup() {
-  createCanvas(700, 900);
+  createCanvas(windowWidth, windowHeight);
   background(255);
   noStroke();
   fill(255, 0, 0);
